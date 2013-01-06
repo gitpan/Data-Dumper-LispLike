@@ -7,6 +7,7 @@ package Data::Dumper::LispLike;
 use Exporter ();
 our @ISA = qw(Exporter);
 our @EXPORT = qw(&dumplisp);
+our $VERSION = '0.004'; # VERSION
 
 
 our $indent = "    ";
@@ -103,7 +104,7 @@ Data::Dumper::LispLike - Dump perl data structures formatted as Lisp-like S-expr
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
